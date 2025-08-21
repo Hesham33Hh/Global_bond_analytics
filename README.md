@@ -1,4 +1,7 @@
 # Global_bond_analytics
+mi proyecto busca entender y predecir la dinámica inflación–bonos usando econometría (VAR) y Machine Learning, comparando resultados entre países.
+Analizar y predecir la relación entre inflación y rendimientos de bonos (yield 10Y) en Estados Unidos y otros países, usando:
+
 🔹 Lo que has hecho hasta ahora
 
 Carga de datos y visualización inicial (USA):
