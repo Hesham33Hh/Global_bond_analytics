@@ -5,7 +5,7 @@ Carga de datos y visualización inicial (USA):
 
 Leí datos de yields (bonos 10 años USA) y datos macro (inflación anual).
 
-Hizo un merge por año → obtuviste una serie histórica desde 1962–2024.
+Hizo un merge por año → obtuvo una serie histórica desde 1962–2024.
 
 Visualizaste:
 
@@ -82,6 +82,24 @@ Barras: real_yield último año.
 
 Heatmap: correlaciones inflación–yield por país.
 
+Modelos de predicción: usar ML para predecir la rentabilidad de bonos o la inflación.
+
+Algoritmos: Ridge/Lasso, Random Forest, Gradient Boosting, XGBoost, etc.
+
+Feature engineering: incluir más países, variables macro (PIB, empleo, exportaciones), y preparar los datos.
+
+Entrenamiento y validación: dividir train/test, calcular métricas (RMSE, MAE, R²).
+
+Comparar modelos: ver si un modelo de ML predice mejor que el VAR.
+
+3. Integración en el proyecto final
+
+Combinas la parte econométrica (explica la lógica y relaciones) con la parte ML (demuestra capacidad de predicción).
+
+
+“Los VAR ayudan a entender relaciones causales.”
+
+“Los modelos ML ayudan a predecir mejor en escenarios complejos con muchos países y variables.”
 Entrega final:
 
 README.md explicando objetivo, datos, metodología, resultados e implicaciones.
