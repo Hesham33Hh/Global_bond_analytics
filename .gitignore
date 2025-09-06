@@ -1,5 +1,7 @@
 comments.md
 .DS_Store
+.gitkeep
+*.gitkeep
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
