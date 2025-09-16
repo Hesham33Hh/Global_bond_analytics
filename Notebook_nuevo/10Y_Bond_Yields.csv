@@ -1,0 +1,142 @@
+country,year,10Y_bond_yield
+Switzerland,2025,0.267
+Switzerland,2024,0.287
+Switzerland,2023,0.651
+Switzerland,2022,1.57
+Switzerland,2021,-0.163
+Switzerland,2020,-0.53
+Switzerland,2019,-0.502
+Switzerland,2018,-0.168
+Switzerland,2017,-0.069
+Switzerland,2016,-0.139
+Switzerland,2015,-0.069
+Taiwan,2025,1.37
+Taiwan,2024,1.645
+Taiwan,2023,1.2
+Taiwan,2022,1.335
+Taiwan,2021,0.715
+Taiwan,2020,0.295
+Taiwan,2019,0.653
+Taiwan,2018,0.865
+Taiwan,2017,0.948
+Taiwan,2016,1.21
+Taiwan,2015,
+Japan,2025,1.596
+Japan,2024,1.07
+Japan,2023,0.625
+Japan,2022,0.408
+Japan,2021,0.064
+Japan,2020,0.02
+Japan,2019,-0.012
+Japan,2018,-0.001
+Japan,2017,0.047
+Japan,2016,0.045
+Japan,2015,0.272
+Germany,2025,2.705
+Germany,2024,2.362
+Germany,2023,2.031
+Germany,2022,2.565
+Germany,2021,-0.182
+Germany,2020,-0.576
+Germany,2019,-0.188
+Germany,2018,0.246
+Germany,2017,0.426
+Germany,2016,0.207
+Germany,2015,0.635
+Germany,2014,0.541
+Germany,2013,1.941
+Germany,2012,1.306
+Germany,2011,1.816
+Germany,2010,2.949
+United Kingdom,2025,4.655
+United Kingdom,2024,4.573
+United Kingdom,2023,3.539
+United Kingdom,2022,3.698
+United Kingdom,2021,0.969
+United Kingdom,2020,0.193
+United Kingdom,2019,0.823
+United Kingdom,2018,1.269
+United Kingdom,2017,1.188
+United Kingdom,2016,1.24
+United Kingdom,2015,1.961
+United Kingdom,2014,1.756
+United Kingdom,2013,3.032
+United Kingdom,2012,1.836
+United Kingdom,2011,1.977
+United Kingdom,2010,3.395
+United States,2025,4.06
+United States,2024,4.581
+United States,2023,3.866
+United States,2022,3.879
+United States,2021,1.512
+United States,2020,0.917
+United States,2019,1.919
+United States,2018,2.686
+United States,2017,2.405
+United States,2016,2.446
+United States,2015,2.269
+United States,2014,2.17
+United States,2013,3.026
+United States,2012,1.756
+United States,2011,1.876
+United States,2010,3.288
+Spain,2025,3.281
+Spain,2024,3.065
+Spain,2023,3.008
+Spain,2022,3.649
+Spain,2021,0.568
+Spain,2020,0.044
+Spain,2019,0.462
+Spain,2018,1.422
+Spain,2017,1.568
+Spain,2016,1.369
+Spain,2015,1.781
+China,2025,1.817
+China,2024,1.688
+China,2023,2.592
+China,2022,2.879
+China,2021,2.789
+China,2020,3.203
+China,2019,3.175
+China,2018,3.27
+China,2017,3.915
+China,2016,3.066
+China,2015,2.862
+Mexico,2025,8.564
+Mexico,2024,10.84
+Mexico,2023,9.288
+Mexico,2022,9.347
+Mexico,2021,7.815
+Mexico,2020,5.417
+Mexico,2019,7.067
+Mexico,2018,8.71
+Mexico,2017,7.72
+Mexico,2016,7.45
+Mexico,2015,6.27
+Russia,2025,13.823
+Russia,2024,15.184
+Russia,2023,12.3
+Russia,2022,10.34
+Russia,2021,8.42
+Russia,2020,5.905
+Russia,2019,6.225
+Russia,2018,8.73
+Russia,2017,7.59
+Russia,2016,8.38
+Russia,2015,9.74
+Italy,2025,3.54
+Italy,2024,3.547
+Italy,2023,3.694
+Italy,2022,4.703
+Italy,2021,1.168
+Italy,2020,0.516
+Italy,2019,1.4
+Italy,2018,2.773
+Italy,2017,2.001
+Italy,2016,1.822
+Italy,2015,1.605
+Italy,2014,1.881
+Italy,2013,4.089
+Italy,2012,4.53
+Italy,2011,7.035
+Italy,2010,4.84
