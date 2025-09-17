@@ -34,8 +34,10 @@ var/
 
 
 # Ignorar archivo de copia temporal
-Global_bond_limpieza copia.ipynb
+
 notebooks/
+Notebook_nuevo/
+Global_bond_limpieza copia.ipynb
 
 # Installer logs
 pip-log.txt
