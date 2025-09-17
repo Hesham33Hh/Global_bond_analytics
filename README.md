@@ -1,5 +1,27 @@
 
 # Global Bond Analytics
+## Setup Guide
+
+Sigue estos pasos para instalar y ejecutar el proyecto localmente:
+
+1. Clona el repositorio:
+	```bash
+	git clone https://github.com/Hesham33Hh/Global_bond_analytics.git
+	cd Global_bond_analytics
+	```
+
+2. Crea un entorno virtual (recomendado):
+	```bash
+	python3 -m venv venv
+	source venv/bin/activate
+	```
+
+3. Instala los requisitos:
+	```bash
+	pip install -r requirements.txt
+	```
+
+¡Listo! Ahora puedes ejecutar los notebooks y scripts del proyecto.
 
 Este proyecto tiene como objetivo entender y predecir la dinámica entre inflación y bonos, utilizando econometría (VAR) y Machine Learning, y comparando resultados entre distintos países.
 
