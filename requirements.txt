@@ -1,0 +1,12 @@
+ipykernel==6.30.1
+ipython==9.5.0
+jupyter_client==8.6.3
+jupyter_core==5.8.1
+matplotlib==3.10.6
+numpy==2.3.2
+pandas==2.3.2
+scikit-learn==1.7.1
+scipy==1.16.1
+seaborn==0.13.2
+statsmodels==0.14.5
+pyarrow==21.0.0
