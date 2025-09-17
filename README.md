@@ -1,113 +1,66 @@
-# Global_bond_analytics
-mi proyecto busca entender y predecir la dinámica inflación–bonos usando econometría (VAR) y Machine Learning, comparando resultados entre países.
-Analizar y predecir la relación entre inflación y rendimientos de bonos (yield 10Y) en Estados Unidos y otros países, usando:
 
-🔹 Lo que has hecho hasta ahora
+# Global Bond Analytics
 
-Carga de datos y visualización inicial (USA):
+Este proyecto tiene como objetivo entender y predecir la dinámica entre inflación y bonos, utilizando econometría (VAR) y Machine Learning, y comparando resultados entre distintos países.
 
-Leí datos de yields (bonos 10 años USA) y datos macro (inflación anual).
+## Objetivo
+Analizar y predecir la relación entre la inflación y los rendimientos de bonos a 10 años (yield 10Y) en Estados Unidos y otros países, empleando modelos econométricos y de aprendizaje automático.
 
-Hizo un merge por año → obtuvo una serie histórica desde 1962–2024.
+## Metodología
 
-Visualizaste:
+### 1. Análisis Estados Unidos (USA)
 
-Evolución del yield 10Y.
+**Carga y visualización de datos:**
+- Lectura de datos de rendimientos de bonos a 10 años (USA) y datos macroeconómicos de inflación anual.
+- Unificación de datos por año, obteniendo una serie histórica desde 1962 hasta 2024.
+- Visualización de la evolución del yield 10Y, inflación anual (YoY) y real yield (yield – inflación).
 
-Inflación anual (YoY).
+**Análisis exploratorio:**
+- Correlación simple: yield e inflación correlacionan 0.61 (relación positiva moderada).
+- Regresión lineal: yield = 3.37 + 0.65 × inflación. Significativo, pero solo explica ~38% de la variación (R² = 0.38).
 
-Real yield (yield – inflación).
+**Diagnósticos:**
+- Residuos no completamente normales.
+- Fuerte autocorrelación (Durbin-Watson = 0.23).
+- Se justifica el uso de errores robustos (HAC/Newey-West).
 
-Esto permitió ver los grandes periodos (ejemplo: inflación alta en 70s, yields más bajos post-2008).
-
-Análisis exploratorio (USA):
-
-Correlación simple → yield e inflación correlacionan 0.61 (relación positiva moderada).
-
-Regresión lineal → yield = 3.37 + 0.65 × inflación.
-✅ Significativo, pero solo explica ~38% de la variación (R² = 0.38).
-
-Diagnósticos:
-
-Residuos no normales del todo.
-
-Fuerte autocorrelación (Durbin-Watson = 0.23).
-
-→ Justificó usar errores robustos (HAC/Newey-West).
-
-Modelo VAR (USA):
-
-Use un modelo VAR con selección de rezagos (criterios AIC/BIC).
-
-Hizo forecast y gráficas:
-
-Forecast histórico/futuro → proyección yields e inflación.
-
-IRF (impulse-response functions) → cómo un shock en inflación afecta yields y viceversa.
-
- En qué punto estamos ahora
-
-Ya se ha terminado el bloque USA completo:
-
-Limpieza
-
-Análisis exploratorio
-
-Regresión robusta
-
-VAR y funciones impulso-respuesta
-
-Qué falta para hacer
-
-Ahora pasamos al bloque multi-país, que es el corazón comparativo del proyecto:
-
-Construcción del dataset multi-país:
-
-Combinar yields de varios países (EEUU, Alemania, Japón, España, etc.).
-
-Añadir inflación anual de cada país (macro dataset).
-
-Calcular real_yield y limpiar valores extremos.
-
-KPIs multi-país:
-
-Correlación inflación–yield por país.
-
-Ranking de real_yield (últimos 10 años y último año).
-
-Guardar dataset final.
-
-Visualizaciones comparativas:
-
-Series de yields e inflación por países seleccionados.
-
-Barras: real_yield último año.
-
-Heatmap: correlaciones inflación–yield por país.
-
-Modelos de predicción: usar ML para predecir la rentabilidad de bonos o la inflación.
-
-Algoritmos: Ridge/Lasso, Random Forest, Gradient Boosting, XGBoost, etc.
-
-Feature engineering: incluir más países, variables macro (PIB, empleo, exportaciones), y preparar los datos.
-
-Entrenamiento y validación: dividir train/test, calcular métricas (RMSE, MAE, R²).
-
-Comparar modelos: ver si un modelo de ML predice mejor que el VAR.
-
-3. Integración en el proyecto final
-
-Combinas la parte econométrica (explica la lógica y relaciones) con la parte ML (demuestra capacidad de predicción).
+**Modelo VAR:**
+- Aplicación de modelo VAR con selección de rezagos (criterios AIC/BIC).
 
 
-“Los VAR ayudan a entender relaciones causales.”
+**Forecast y visualizaciones:**
+- Proyección histórica y futura de yields e inflación.
+- Funciones de impulso-respuesta (IRF): análisis de cómo un shock en inflación afecta yields y viceversa.
 
-“Los modelos ML ayudan a predecir mejor en escenarios complejos con muchos países y variables.”
-Entrega final:
+### 2. Análisis Multi-país
 
-README.md explicando objetivo, datos, metodología, resultados e implicaciones.
+**Construcción del dataset:**
+- Integración de yields de varios países (EEUU, Alemania, Japón, España, etc.).
+- Incorporación de inflación anual de cada país.
+- Cálculo de real yield y limpieza de valores extremos.
 
-Código limpio en Jupyter/VSCode.
+**KPIs y visualizaciones:**
+- Correlación inflación–yield por país.
+- Ranking de real yield (últimos 10 años y último año).
+- Visualización de series de yields e inflación por país.
+- Barras: real yield último año.
+- Heatmap: correlaciones inflación–yield por país.
 
-Figuras clave.
+**Modelos de predicción:**
+- Aplicación de algoritmos de Machine Learning: Ridge/Lasso, Random Forest, Gradient Boosting, XGBoost, etc.
+- Feature engineering: inclusión de más países y variables macroeconómicas (PIB, empleo, exportaciones).
+- Entrenamiento y validación: división train/test, cálculo de métricas (RMSE, MAE, R²).
+- Comparación de modelos: evaluación de si los modelos de ML predicen mejor que el VAR.
+
+### 3. Integración y entrega final
+
+El proyecto integra la parte econométrica (explicación de relaciones causales) con la parte de Machine Learning (capacidad predictiva en escenarios complejos).
+
+> Los modelos VAR ayudan a entender relaciones causales.
+> Los modelos de ML permiten predecir mejor en escenarios complejos con muchos países y variables.
+
+## Entregables
+- `README.md` explicando objetivo, datos, metodología, resultados e implicaciones.
+- Código limpio en Jupyter/VSCode.
+- Figuras y visualizaciones clave.
 
